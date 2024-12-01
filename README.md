@@ -12,3 +12,5 @@ We tried to improve the model's performance with the following approaches:
   - We used the FineTome which is a subset of the `arcee-ai/The-Tome`, a curated dataset for training LLM focused on instruction following.
   - Then we used custom tools like get_chat_template to support various model formats and standardize_sharegpt to convert ShareGPT-style datasets into a generic format for easier training.
   - Finally, we designed a custom prompt to indicate the expected behaviour of our model. To do this, we provided not only instructions but also real-time data from an external API.
+
+The model can be used in a [Huggingface space](https://huggingface.co/spaces/arejula27/lab2_id223)
